@@ -1,4 +1,4 @@
-<h1 align="center">Hola 👋, soy Jose Cuoco Cñizalez</h1>
+<h1 align="center">Hola 👋, soy Jose Cuoco Cañizalez</h1>
 <h3 align="center">Un desarrollador frontend apasionado de I</h3>
 
 <p align="left"> <img src ="https://komarev.com/ghpvc/?username=cuocojose&label=Profile%20views&color=0e75b6&style=flat" alt="cuocojose" /> </p>
