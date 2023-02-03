@@ -145,16 +145,18 @@
     justify-content: space-evenly;
 
 }
+
 @media screen and (max-width:750px) {
-    .div-nav{
+    .div-nav {
         display: grid;
         align-items: center;
         justify-items: start;
         align-content: space-between;
         justify-content: space-between;
     }
-    
+
 }
+
 .nav {
     width: 40px;
     height: 40px;
@@ -170,7 +172,7 @@
 }
 
 .nav ul>li {
-    float:left;
+    float: left;
 }
 
 .nav li:hover>ul {
@@ -189,10 +191,11 @@
     text-size-adjust: 15px;
     text-decoration: none;
     font-size: 15px;
-    font-weight:600;
-    
+    font-weight: 600;
+
 
 }
+
 @media screen and (max-width:420px) {
     .nav ul li a {
         text-size-adjust: 8px;
@@ -200,8 +203,9 @@
 
 
     }
-    
+
 }
+
 .menu {
     width: 40px;
     height: 40px;
@@ -218,7 +222,7 @@
 }
 
 .sub-menu li ul:hover>li {
-    float:inline-start;
+    float: inline-start;
 }
 
 .sub-menu li ul li {
@@ -234,6 +238,7 @@
     width: 50px;
     height: 50px;
 }
+
 @media screen and (max-width:750px) {
     .nav a img {
         width: 40px;
@@ -657,12 +662,13 @@
     width: 30px;
     height: 30px;
     transition: all 0.3s;
-    
+
 }
 
 .redes img:hover {
     transform: scale(1.1);
 }
+
 @media screen and (max-width:750px) {
     .redes a img {
         width: 30px;
@@ -697,6 +703,15 @@
 }
 
 /****************************************************NOSOTROS******************************/
+.cuerpo p {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+    font-family: "noto Sans", sans-serif;
+}
+
 .registro {
     display: flex;
     justify-content: center;
@@ -711,6 +726,7 @@
     padding: 20px 40px;
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
 }
+
 .title {
     font-size: 50px;
     margin-bottom: 50px;
