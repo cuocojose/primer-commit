@@ -6,3 +6,17 @@
     box-sizing: border-box;
     font-family: "noto Sans", sans-serif;
 }
+.contenedor {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px auto 800px 200px;
+    grid-template-areas:
+
+
+        "header header header"
+        "cuerpo cuerpo cuerpo"
+        "aside aside aside"
+        "footer footer footer";
+
+}
