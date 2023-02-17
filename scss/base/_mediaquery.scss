@@ -12,6 +12,7 @@
             "footer footer ";
     }
 }
+
 @media screen and (max-width: 750px) {
     .contenedor {
         width: auto;
@@ -26,15 +27,24 @@
             "footer";
     }
 }
+
 @media screen and (max-width: 1000px) {
-    header img {
-        width: 200px;
-        height: 150px;
+    .contenedor header {
+        max-width: 1000px;
+        height: 200px;
+        display: grid;
+        grid-template-columns: 80% 20%;
+        grid-template-rows: 225px;
+        display: grid;
+        align-self: center;
+        justify-content: center;
+        row-gap: 100px;
     }
 }
 
+
 @media screen and (max-width: 750px) {
-    header {
+    .contenedor header {
         max-width: 750px;
         height: 150px;
         display: grid;
@@ -46,15 +56,23 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .contenedor header img {
+        width: 200px;
+        height: 150px;
+    }
+}
+
 @media screen and (max-width: 750px) {
-    header img {
+    .contenedor header img {
         width: 150px;
         height: 120px;
 
     }
 }
+
 @media screen and (max-width:750px) {
-    header div {
+    .contenedor header div {
         display: grid;
         align-items: center;
         justify-items: start;
@@ -63,8 +81,9 @@
     }
 
 }
+
 @media screen and (max-width:420px) {
-    header div nav ul li a {
+    .contenedor header div nav ul li a {
         text-size-adjust: 8px;
         padding: 5px 10px;
 
@@ -72,8 +91,9 @@
     }
 
 }
+
 @media screen and (max-width:750px) {
-    header div nav a img {
+    .contenedor header div nav a img {
         width: 40px;
         height: 40px;
     }
@@ -81,183 +101,204 @@
 
 
 @media screen and (max-width:420px) {
-    header div nav a img {
+    .contenedor header div nav a img {
         width: 30px;
         height: 30px;
     }
 }
-@media screen and (max-width: 1000px) {
-    .contenedor main .seccion-1 {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: auto;
-
-    }
-}
-
-
-@media screen and (max-width: 750px) {
-    .contenedor main .seccion-1 {
-        display: grid;
-        grid-template-columns: repeat(2.50%);
-        grid-template-rows: auto;
-        align-self: center;
-        justify-self: center;
-    }
-}
-@media screen and (max-width: 420px) {
-    .contenedor main .seccion-1 {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}    
-
-@media screen and (max-width: 750px) {
-    .contenedor main .seccion-1 div {
-        width: 200px;
-        height: 200px;
-    }
-}
-@media screen and (max-width:750px) {
-    .contenedor main .seccion-1 div a img {
-        width: 180px;
-        height: 180px;
+    @media screen and (max-width: 1000px) {
+        .contenedor main h2 {
+            font-size: 20px;
+            height: 75px;
+        }
     }
 
-}
+    @media screen and (max-width: 1000px) {
+        .contenedor main .seccion-1 {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: auto;
 
-@media screen and (max-width:1000px) {
-    .contenedor main .seccion-2 .div1 img {
-        width: 250px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        align-self: center;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width:1000px) {
-    .contenedor main .seccion-2 .div1 img {
-        width: 250px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        align-self: center;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width:750px) {
-    .contenedor main .seccion-2 .div1 img {
-        width: 150px;
-
-    }
-}
-@media screen and (max-width: 1000px) {
-    .contenedor main .seccion-2 .titulo {
-        text-align: center;
-        color: black;
-        font-size: 25px;
-    }
-}
-@media screen and (max-width: 750px) {
-    .contenedor main .seccion-2 .titulo {
-        text-align: center;
-        color: black;
-        font-size: 15px;
-    }
-}
-@media screen and (max-width:750px) {
-    .contenedor main .seccion-2 .h2-seccion-2 p {
-        font-size: 12px;
+        }
     }
 
-}
-@media screen and (max-width:750px) {
-    .contenedor main .seccion-2 .div1 .titulo {
-        width: 50%;
-        height: auto;
-        font-size: 20px;
-        align-content: center;
-        justify-self: center;
+
+    @media screen and (max-width: 750px) {
+        .contenedor main .seccion-1 {
+            display: grid;
+            grid-template-columns: repeat(2.50%);
+            grid-template-rows: auto;
+            align-self: center;
+            justify-self: center;
+        }
     }
 
-}
-@media screen and (max-width:750px) {
-    .contenedor main .div1 p {
-        font-size: 12px;
+    @media screen and (max-width: 420px) {
+        .contenedor main .seccion-1 {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
     }
 
-}
-
-@media screen and (max-width: 1000px) {
-
-    .contenedor aside .slider-frame ul li img {
-        width: 500px;
-        height: 280px;
-    }
-}
-
-
-@media screen and (max-width: 750px) {
-
-    .contenedor aside .slider-frame ul li img{
-        width: 365px;
-        height: 190px;
-    }
-}
-
-
-@media screen and (max-width: 420px) {
-
-    .contenedor aside .slider-frame ul li img {
-        width: 200px;
-        height: 110px;
-    }
-}
-@media screen and (max-width:750px) {
-    .contenedor .pie .redes a img {
-        width:20px;
-        height: 20px;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .contenedor main .seccion-1-p {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: auto;
-
-    }
-}
-
-
-@media screen and (max-width: 750px) {
-    .contenedor main .seccion-1-p {
-        display: grid;
-        grid-template-columns: repeat(2.50%);
-        grid-template-rows: auto;
-        align-self: center;
-        justify-self: center;
-    }
-}
-@media screen and (max-width: 420px) {
-    .contenedor main .seccion-1-p {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}    
-
-@media screen and (max-width: 750px) {
-    .contenedor main .seccion-1-p div {
-        width: 200px;
-        height: 200px;
-    }
-}
-@media screen and (max-width:750px) {
-    .contenedor main .seccion-1-p div img {
-        width: 180px;
-        height: 180px;
+    @media screen and (max-width: 750px) {
+        .contenedor main .seccion-1 div {
+            width: 200px;
+            height: 200px;
+        }
     }
 
-}
+    @media screen and (max-width:750px) {
+        .contenedor main .seccion-1 div a img {
+            width: 180px;
+            height: 180px;
+        }
+
+    }
+
+    @media screen and (max-width:1000px) {
+        .contenedor main .seccion-2 .div1 img {
+            width: 250px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            align-self: center;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (max-width:1000px) {
+        .contenedor main .seccion-2 .div1 img {
+            width: 250px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            align-self: center;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (max-width:750px) {
+        .contenedor main .seccion-2 .div1 img {
+            width: 150px;
+
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .contenedor main .seccion-2 .titulo {
+            text-align: center;
+            color: black;
+            font-size: 25px;
+        }
+    }
+
+    @media screen and (max-width: 750px) {
+        .contenedor main .seccion-2 .titulo {
+            text-align: center;
+            color: black;
+            font-size: 15px;
+        }
+    }
+
+    @media screen and (max-width:750px) {
+        .contenedor main .seccion-2 .h2-seccion-2 p {
+            font-size: 12px;
+        }
+
+    }
+    @media screen and (max-width:750px) {
+        .contenedor main .seccion-2 .h2-seccion-2 .titulo{
+            font-size: 15px;
+        }
+    }
+    @media screen and (max-width:750px) {
+        .contenedor main .seccion-2 .div1 .titulo {
+            width: 50%;
+            height: auto;
+            font-size: 15px;
+            align-content: center;
+            justify-self: center;
+        }
+
+    }
+
+    @media screen and (max-width:750px) {
+        .contenedor main .div1 p {
+            font-size: 12px;
+        }
+
+    }
+
+    @media screen and (max-width: 1000px) {
+
+        .contenedor aside .slider-frame ul li img {
+            width: 500px;
+            height: 280px;
+        }
+    }
+
+
+    @media screen and (max-width: 750px) {
+
+        .contenedor aside .slider-frame ul li img {
+            width: 365px;
+            height: 190px;
+        }
+    }
+
+
+    @media screen and (max-width: 420px) {
+
+        .contenedor aside .slider-frame ul li img {
+            width: 200px;
+            height: 110px;
+        }
+    }
+
+    @media screen and (max-width:750px) {
+        .contenedor .pie .redes a img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .contenedor main .seccion-1-p {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: auto;
+
+        }
+    }
+
+
+    @media screen and (max-width: 750px) {
+        .contenedor main .seccion-1-p {
+            display: grid;
+            grid-template-columns: repeat(2.50%);
+            grid-template-rows: auto;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+
+    @media screen and (max-width: 420px) {
+        .contenedor main .seccion-1-p {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media screen and (max-width: 750px) {
+        .contenedor main .seccion-1-p div {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    @media screen and (max-width:750px) {
+        .contenedor main .seccion-1-p div img {
+            width: 180px;
+            height: 180px;
+        }
+    }
