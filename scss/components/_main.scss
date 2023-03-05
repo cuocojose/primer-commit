@@ -7,6 +7,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-auto-rows: auto;
+        justify-items: center;
         
 
         h2 {
@@ -253,11 +254,21 @@
         width: 100%;
         height: 600px;
         grid-area: cuerpo;
-        background-color: black;
         display: grid;
         justify-content: center;
         align-items: center;
-        margin-top: 20px
+        margin-top: 20px;
         
+        
+    }
+    .nosotros{
+        width: 90%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        padding: 20px;
+
     }
 }

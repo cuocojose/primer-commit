@@ -228,6 +228,18 @@
         }
 
     }
+    @media screen and (max-width:1000px) {
+        .contenedor main .nosotros p {
+            font-size: 15px;
+        }
+
+    }
+    @media screen and (max-width:750px) {
+        .contenedor main .nosotros p {
+            font-size: 12px;
+        }
+
+    }
 
     @media screen and (max-width: 1000px) {
 
